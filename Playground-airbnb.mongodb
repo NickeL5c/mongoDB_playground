@@ -1,0 +1,11 @@
+use('sample_airbnb');
+db.listingsAndReviews.find({
+    $and: [
+        { price: { $gte: 30.00, $lt: 60.00 } },
+        { "address.market": "New York"}
+    ]    
+})
+
+// db.listingsAndReviews.find(
+//     { "address.country": "United States"}
+// )

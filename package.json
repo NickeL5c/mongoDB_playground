@@ -7,5 +7,16 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NickeL5c/mongoDB_playground.git"
+  },
+  "bugs": {
+    "url": "https://github.com/NickeL5c/mongoDB_playground/issues"
+  },
+  "homepage": "https://github.com/NickeL5c/mongoDB_playground#readme",
+  "dependencies": {
+    "realm-web": "^2.0.0"
+  }
 }
